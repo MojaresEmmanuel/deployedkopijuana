@@ -13,43 +13,235 @@ closeShopping.addEventListener('click', ()=>{
     body.classList.remove('active');
 })
 
+
 let products = [
     {
         id: 1,
-        name: 'PRODUCT NAME 1',
-        image: '1.PNG',
+        name: 'CAFE AMERICANO',
         price: 120000
     },
     {
         id: 2,
-        name: 'PRODUCT NAME 2',
-        image: '2.PNG',
+        name: 'ICED COFFEE',
         price: 120000
     },
     {
         id: 3,
-        name: 'PRODUCT NAME 3',
-        image: '3.PNG',
+        name: 'CARAMEL MACCHIATO',
         price: 220000
     },
     {
         id: 4,
-        name: 'PRODUCT NAME 4',
-        image: '4.PNG',
+        name: 'SPANISH LATTE',
         price: 123000
     },
     {
         id: 5,
-        name: 'PRODUCT NAME 5',
-        image: '5.PNG',
+        name: 'ICED LATTE',
         price: 320000
     },
     {
         id: 6,
-        name: 'PRODUCT NAME 6',
-        image: '6.PNG',
+        name: 'SALTED CARAMEL',
+        price: 120000
+    },
+    {
+        id: 7,
+        name: 'COFFEE CARAMEL',
+        price: 120000
+    },
+    {
+        id: 8,
+        name: 'COFFEE HAZELNUT',
+        price: 120000
+    },
+    {
+        id: 9,
+        name: 'WHITE CHOCOLATE MACCHIATO',
+        price: 120000
+    },
+    {
+        id: 10,
+        name: 'ICED MOCHA',
+        price: 120000
+    },
+    {
+        id: 11,
+        name: 'COFFEE ALMOND',
+        price: 120000
+    },
+    {
+        id: 12,
+        name: 'KOPI VIENNA',
+        price: 120000
+    },
+    {
+        id: 12,
+        name: 'SIGNATURE CHOCOLATE',
+        price: 120000
+    },
+    {
+        id: 12,
+        name: 'NUTELLA HAZELNUT',
+        price: 120000
+    },
+    {
+        id: 12,
+        name: 'JAVA CHIPS',
+        price: 120000
+    },
+    {
+        id: 12,
+        name: 'PEPPERMINT MOCHA',
+        price: 120000
+    },
+    {
+        id: 12,
+        name: 'BUTTER BEER',
+        price: 120000
+    },
+    {
+        id: 12,
+        name: 'STRAWBERRY YOGURT',
+        price: 120000
+    },
+    {
+        id: 12,
+        name: 'MANGO LATTE',
+        price: 120000
+    },
+    {
+        id: 12,
+        name: 'STRAWBERRY LATTE',
+        price: 120000
+    },
+    {
+        id: 12,
+        name: 'BREWED COFFEE',
+        price: 120000
+    },
+    {
+        id: 12,
+        name: 'CAFE AMERICANO',
+        price: 120000
+    },
+    {
+        id: 12,
+        name: 'CAPPUCCINO	',
+        price: 120000
+    },
+    {
+        id: 12,
+        name: 'LATTE',
+        price: 120000
+    },
+    {
+        id: 12,
+        name: 'CAFE MOCHA',
+        price: 120000
+    },
+    {
+        id: 12,
+        name: 'KOPI VIENNA',
+        price: 120000
+    },
+    {
+        id: 12,
+        name: 'CARAMEL	',
+        price: 120000
+    },
+    {
+        id: 12,
+        name: 'HAZELNUT',
+        price: 120000
+    },
+    {
+        id: 12,
+        name: 'Double Cheesy Ensaymada',
+        price: 120000
+    },
+    {
+        id: 12,
+        name: 'Assorted Oatmeal	',
+        price: 120000
+    },
+    {
+        id: 12,
+        name: 'Brownies',
+        price: 120000
+    },
+    {
+        id: 12,
+        name: 'Chunky Cookies	',
+        price: 120000
+    },
+    {
+        id: 12,
+        name: 'Chocolate Mousse	',
+        price: 120000
+    },
+    {
+        id: 12,
+        name: 'Tres Leches',
+        price: 120000
+    },
+    {
+        id: 12,
+        name: 'Not So Messy Cookies	',
+        price: 120000
+    },
+    {
+        id: 12,
+        name: 'Korean Garlic Bun',
+        price: 120000
+    },
+    {
+        id: 12,
+        name: 'Revel Bar',
+        price: 120000
+    },
+    {
+        id: 12,
+        name: 'Ferero Cupcake',
+        price: 120000
+    },
+    {
+        id: 12,
+        name: 'Oreo Cupcake',
+        price: 120000
+    },
+    {
+        id: 12,
+        name: 'Oatmeal Cookie',
+        price: 120000
+    },
+    {
+        id: 12,
+        name: 'Ham and Cheese',
+        price: 120000
+    },
+    {
+        id: 12,
+        name: 'Chocolate Muffin	',
+        price: 120000
+    },
+    {
+        id: 12,
+        name: 'BAKED PENNE',
+        price: 120000
+    },
+    {
+        id: 12,
+        name: 'PASTA CARBONARA',
+        price: 120000
+    },
+    {
+        id: 12,
+        name: 'LASAGNA	',
         price: 120000
     }
+
+    
 ];
 let listCards  = [];
 function initApp(){
@@ -57,7 +249,7 @@ function initApp(){
         let newDiv = document.createElement('div');
         newDiv.classList.add('item');
         newDiv.innerHTML = `
-            <img src="image/${value.image}">
+             
             <div class="title">${value.name}</div>
             <div class="price">${value.price.toLocaleString()}</div>
             <button onclick="addToCard(${key})">Add To Card</button>`;
@@ -83,7 +275,7 @@ function reloadCard(){
         if(value != null){
             let newDiv = document.createElement('li');
             newDiv.innerHTML = `
-                <div><img src="image/${value.image}"/></div>
+                
                 <div>${value.name}</div>
                 <div>${value.price.toLocaleString()}</div>
                 <div>
@@ -92,11 +284,14 @@ function reloadCard(){
                     <button onclick="changeQuantity(${key}, ${value.quantity + 1})">+</button>
                 </div>`;
                 listCard.appendChild(newDiv);
+                
         }
+        
     })
     total.innerText = totalPrice.toLocaleString();
     quantity.innerText = count;
 }
+
 function changeQuantity(key, quantity){
     if(quantity == 0){
         delete listCards[key];
@@ -105,4 +300,5 @@ function changeQuantity(key, quantity){
         listCards[key].price = quantity * products[key].price;
     }
     reloadCard();
+    
 }

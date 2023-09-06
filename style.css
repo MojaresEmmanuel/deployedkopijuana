@@ -1,17 +1,21 @@
 body{
-    background-color: #E3E7E8;
+    background-color: #c09a7f;
     font-family: system-ui;
+    background-image: url('./image/backcover1821.png');
+    background-repeat: no-repeat;
+    background-size: 230vh;
 }
 .container{
-    width: 1000px;
+    width: 750px;
     margin: auto;
-    transition: 0.5s;
+    transition: 0.9s;
 }
 header{
     display: grid;
     grid-template-columns: 1fr 50px;
     margin-top: 50px;
 }
+
 header .shopping{
     position: relative;
     text-align: right;
@@ -31,6 +35,40 @@ header .shopping span{
     left: 80%;
     padding: 3px 10px;
 }
+
+.header .col-1 {
+    width: 100%;
+    flex-direction: column;
+    padding: 30px;
+    max-width: 80%;
+    margin-top: 40px;
+    margin-left: 20px;
+    border-radius: 50%;
+}
+.header h1 {
+    margin-bottom: 60px;
+}
+.header p {
+    margin: 60px;
+}
+
+.hero-img{
+    border-radius: 100vh;
+    margin-left: 70vh;
+    height: 350px;
+    width: 350px;
+    margin-bottom: 70px;
+    margin-right: 70px;
+    margin-top:5px;
+}
+.grap{
+    margin-top: 200px;
+    margin-bottom: 40px;
+    margin-left: 100px;
+    margin-right: 40px;
+    position: relative;
+}
+
 .list{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -65,11 +103,12 @@ header .shopping span{
 .card{
     position: fixed;
     top:0;
-    left: 100%;
-    width: 500px;
+    margin-left: 200px;
+    width: 300px;
     background-color: #453E3B;
     height: 100vh;
     transition: 0.5s;
+
 }
 .active .card{
     left: calc(100% - 500px);
@@ -128,4 +167,104 @@ header .shopping span{
 }
 .listCard .count{
     margin: 0 10px;
+}
+
+/* CONTACT */
+.contact .container {
+    margin-top: 100px;
+    text-align: center;
+    background: #E9F9FF;
+    padding: 5px;
+    border-radius: 30px;
+    background-image: url('./image/backcover3 copy.png');
+    background-repeat: no-repeat;
+    /* background-position: cover; */
+    
+}
+.contact .container h3{
+    margin: 40px 0px;
+}
+.contact .fa {
+    margin-right: 30px;
+    font-size: 30px;
+    color: var(--blue);
+}
+.contact .quick-links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.contact .quick-links ul {
+    display: flex;
+}
+.contact .quick-links ul li {
+    margin: 0px 20px;
+    color: var(--dark-purple);
+    font-weight: bold;
+    cursor: pointer;
+}
+.copyright p {
+    color: var(--dark-purple);
+    font-weight: bold;
+}
+
+/* NAV BAR */
+.navbar {
+    width: 100%;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+.toggle-btn i{
+    font-size: 30px;
+    color: var(--dark-purple);
+    position: absolute;
+    top: 30px;
+    right: 20px;
+    display: none;
+}
+.navbar .nav-list ul, .social-icons ul {
+    display: flex;
+    list-style: none;
+}
+.nav-list ul li, .social-icons li {
+    margin: 0px 30px;
+    color: var(--dark-purple);
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer; 
+}
+.social-icons li:hover {
+    transform: scale(1.4);
+}
+.logo {
+    width: 70px;
+}
+
+/* SKILLS */
+.title {
+    text-align: center;
+    margin-bottom: 70px;
+    background-color: burlywood;
+    border-radius: 20px;
+}
+.grid-wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, auto));
+    grid-gap: 30px;
+    border-radius: 20px;
+}
+.icon-title h2 {
+    font-size: 20px;
+    color: var( white);
+    text-align: center;
+}
+.grid-box .highlight {
+    color: var(--circle);
+    font-weight: bold;
+}
+.grid-box {
+    padding: 10px;
 }

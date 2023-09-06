@@ -103,15 +103,14 @@ header .shopping span{
 .card{
     position: fixed;
     top:0;
-    margin-left: 200px;
-    width: 300px;
+    left: 100%;
+    width: 370px;
     background-color: #453E3B;
     height: 100vh;
     transition: 0.5s;
-
 }
 .active .card{
-    left: calc(100% - 500px);
+    left: calc(100% - 320px);
 }
 .active .container{
    transform: translateX(-200px);
@@ -120,7 +119,7 @@ header .shopping span{
     color: #E8BC0E;
     font-weight: 100;
     margin: 0;
-    padding: 0 20px;
+    padding: 3 10px;
     height: 80px;
     display: flex;
     align-items: center;

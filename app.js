@@ -18,228 +18,230 @@ let products = [
     {
         id: 1,
         name: 'CAFE AMERICANO',
-        price: 120000
+        price: 70
     },
     {
         id: 2,
         name: 'ICED COFFEE',
-        price: 120000
+        price: 75
     },
     {
         id: 3,
         name: 'CARAMEL MACCHIATO',
-        price: 220000
+        price: 95
     },
     {
         id: 4,
         name: 'SPANISH LATTE',
-        price: 123000
+        price: 90
     },
     {
         id: 5,
         name: 'ICED LATTE',
-        price: 320000
+        price: 90
     },
     {
         id: 6,
         name: 'SALTED CARAMEL',
-        price: 120000
+        price: 95
     },
     {
         id: 7,
         name: 'COFFEE CARAMEL',
-        price: 120000
+        price: 95
     },
     {
         id: 8,
         name: 'COFFEE HAZELNUT',
-        price: 120000
+        price: 95
     },
     {
         id: 9,
         name: 'WHITE CHOCOLATE MACCHIATO',
-        price: 120000
+        price: 105
     },
     {
         id: 10,
         name: 'ICED MOCHA',
-        price: 120000
+        price: 105
     },
     {
         id: 11,
         name: 'COFFEE ALMOND',
-        price: 120000
+        price: 95
     },
     {
         id: 12,
         name: 'KOPI VIENNA',
-        price: 120000
+        price: 105
     },
     {
         id: 12,
         name: 'SIGNATURE CHOCOLATE',
-        price: 120000
+        price: 105
     },
     {
         id: 12,
         name: 'NUTELLA HAZELNUT',
-        price: 120000
+        price: 135
     },
     {
         id: 12,
         name: 'JAVA CHIPS',
-        price: 120000
+        price: 135
     },
     {
         id: 12,
         name: 'PEPPERMINT MOCHA',
-        price: 120000
+        price: 135
     },
     {
         id: 12,
         name: 'BUTTER BEER',
-        price: 120000
+        price: 115
     },
     {
         id: 12,
         name: 'STRAWBERRY YOGURT',
-        price: 120000
+        price: 125
     },
     {
         id: 12,
         name: 'MANGO LATTE',
-        price: 120000
+        price: 135
     },
     {
         id: 12,
         name: 'STRAWBERRY LATTE',
-        price: 120000
+        price: 125
     },
     {
         id: 12,
         name: 'BREWED COFFEE',
-        price: 120000
+        price: 40
     },
     {
         id: 12,
         name: 'CAFE AMERICANO',
-        price: 120000
+        price: 50
     },
     {
         id: 12,
         name: 'CAPPUCCINO	',
-        price: 120000
+        price: 75
     },
     {
         id: 12,
         name: 'LATTE',
-        price: 120000
+        price: 80
     },
     {
         id: 12,
         name: 'CAFE MOCHA',
-        price: 120000
+        price: 80
+
     },
     {
         id: 12,
         name: 'KOPI VIENNA',
-        price: 120000
+        price: 95
     },
     {
         id: 12,
         name: 'CARAMEL	',
-        price: 120000
+        price: 80
     },
     {
         id: 12,
         name: 'HAZELNUT',
-        price: 120000
+        price: 80
     },
     {
         id: 12,
         name: 'Double Cheesy Ensaymada',
-        price: 120000
+        price: 75
     },
     {
         id: 12,
         name: 'Assorted Oatmeal	',
-        price: 120000
+        price: 115
     },
     {
         id: 12,
         name: 'Brownies',
-        price: 120000
+        price: 40
     },
     {
         id: 12,
         name: 'Chunky Cookies	',
-        price: 120000
+        price: 85
     },
     {
         id: 12,
         name: 'Chocolate Mousse	',
-        price: 120000
+        price: 125
     },
     {
         id: 12,
         name: 'Tres Leches',
-        price: 120000
+        price: 129
     },
     {
         id: 12,
         name: 'Not So Messy Cookies	',
-        price: 120000
+        price: 155
     },
     {
         id: 12,
         name: 'Korean Garlic Bun',
-        price: 120000
+        price: 65
     },
     {
         id: 12,
         name: 'Revel Bar',
-        price: 120000
+        price: 32
     },
     {
         id: 12,
         name: 'Ferero Cupcake',
-        price: 120000
+        price: 75
+
     },
     {
         id: 12,
         name: 'Oreo Cupcake',
-        price: 120000
+        price: 65
     },
     {
         id: 12,
         name: 'Oatmeal Cookie',
-        price: 120000
+        price: 25
     },
     {
         id: 12,
         name: 'Ham and Cheese',
-        price: 120000
+        price: 39
     },
     {
         id: 12,
         name: 'Chocolate Muffin	',
-        price: 120000
-    },
-    {
-        id: 12,
-        name: 'BAKED PENNE',
-        price: 120000
-    },
-    {
-        id: 12,
-        name: 'PASTA CARBONARA',
-        price: 120000
-    },
-    {
-        id: 12,
-        name: 'LASAGNA	',
-        price: 120000
+        price: 65
     }
+    // {
+    //     id: 12,
+    //     name: 'BAKED PENNE',
+    //     price: 120000
+    // },
+    // {
+    //     id: 12,
+    //     name: 'PASTA CARBONARA',
+    //     price: 120000
+    // },
+    // {
+    //     id: 12,
+    //     name: 'LASAGNA	',
+    //     price: 120000
+    // }
 
     
 ];

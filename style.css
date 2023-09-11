@@ -106,6 +106,8 @@ header .shopping span{
     background-color: #453E3B;
     height: 100vh;
     transition: 0.5s;
+    /* background-image: url(./image/logo.png); */
+    
 }
 .active .card{
     left: calc(100% - 320px);
@@ -115,8 +117,8 @@ header .shopping span{
 }
 .card h1{
     color: #E8BC0E;
-    font-weight: 100;
-    margin: 0;
+    font-weight: 300;
+    margin-left: 10;
     padding: 3 10px;
     height: 80px;
     display: flex;
@@ -268,7 +270,9 @@ header .shopping span{
 }
 
 
-@media screen {
+
+  
+
+
     
-    
-}
+
